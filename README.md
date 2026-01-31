@@ -30,12 +30,7 @@ image-kernel-convolution/
 │ ├── home_page.png
 │ ├── upload_photo.png
 │ ├── convolution_blur.png
-│ ├── convolution_edge.png
-│ ├── convolution_sharpen.png
-│ ├── convolution_emboss.png
-│ ├── convolution_custom.png
-│ ├── backend.png
-│ └── ui.png
+│ ├── convolution_edge.png ....
 │
 ├── .gitignore # Git ignore rules (venv, cache, etc.)
 └── README.md # Project documentation
