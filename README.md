@@ -11,6 +11,37 @@ The system consists of:
 
 ---
 
+## Project Structure
+```text
+image-kernel-convolution/
+├── backend/
+│ ├── main.py # FastAPI application entry point
+│ ├── convolution.py # Manual convolution logic (NumPy)
+│ ├── kernels.py # Predefined convolution kernels
+│ ├── requirements.txt # Backend dependencies
+│ └── venv/ # Virtual environment (ignored by git)
+│
+├── ui/
+│ ├── app.py # Streamlit user interface
+│ ├── requirements.txt # UI dependencies
+│ └── venv/ # Virtual environment (ignored by git)
+│
+├── screenshots/
+│ ├── home_page.png
+│ ├── upload_photo.png
+│ ├── convolution_blur.png
+│ ├── convolution_edge.png
+│ ├── convolution_sharpen.png
+│ ├── convolution_emboss.png
+│ ├── convolution_custom.png
+│ ├── backend.png
+│ └── ui.png
+│
+├── .gitignore # Git ignore rules (venv, cache, etc.)
+└── README.md # Project documentation
+```
+---
+
 ## Features
 - Upload images (PNG, JPG, JPEG)
 - Apply **pre-built convolution kernels**:
